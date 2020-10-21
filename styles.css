@@ -1,15 +1,16 @@
-[data-description="anchors"] {
-    background-color: gray;
+.super-important.highlighted {
+    background-color: red;
 }
 
-[data-description] {
+.highlighted,
+.company-data {
+    color: yellow;
+}
+
+li.user-data {
     font-size: 24px;
 }
 
-a[href][target] {
-    color: green;
-}
-
-input[type="text"] {
-    background-color: orange;
+span.user-data {
+    font-size: 10px;
 }
