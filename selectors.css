@@ -13,9 +13,9 @@ ul span {
 }
 
 #special+li span {
-    border: 2px solid red;
+    border: 3px solid red;
 }
 
-#special~li span {
+#special~li {
     margin-left: 16px;
 }
