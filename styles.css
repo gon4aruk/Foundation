@@ -14,9 +14,9 @@
 }
 
 a::before {
-    content: '> ';
+    content: '>';
 }
 
 a::after {
-    content: ' <';
+    content: '<';
 }
