@@ -1,21 +1,10 @@
-body {
-    background-color: antiquewhite;
-}
-
 .rectangle {
-    border: 8px solid black;
-    margin: 16px;
-    padding: 16px;
-    width: 512px;
-    height: 128px;
-}
-
-.rectangle1 {
-    box-sizing: content-box;
-    background-color: aquamarine;
-}
-
-.rectangle2 {
-    box-sizing: border-box;
-    background-color: azure;
+    background-color: bisque;
+    border-width: 10px 20px;
+    border-style: solid solid dashed dashed;
+    border-color: firebrick chartreuse burlywood aqua;
+    margin: 50px 100px;
+    padding: 20px;
+    width: 420px;
+    height: 140px;
 }
