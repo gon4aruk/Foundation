@@ -1,52 +1,21 @@
 body {
-    background-color: #bdc3c7;
+    background-color: antiquewhite;
 }
 
-h1 {
-    color: #9b59b6;
+.rectangle {
+    border: 8px solid black;
+    margin: 16px;
+    padding: 16px;
+    width: 512px;
+    height: 128px;
 }
 
-h2 {
-    color: orange;
+.rectangle1 {
+    box-sizing: content-box;
+    background-color: aquamarine;
 }
 
-li {
-    color: blue;
-}
-
-p {
-    background-color: yellow;
-}
-
-input {
-    border: 3px solid red;
-}
-
-.hello {
-    background-color: white;
-}
-
-#special {
-    border: 2px solid blue;
-}
-
-div>p {
-    font-size: 25px;
-}
-
-input[type="text"] {
-    background-color: grey;
-}
-
-div:nth-of-type(3)>p {
-    background-color: yellow;
-}
-
-div:nth-of-type(3)>p:nth-of-type(2) {
-    border: 5px solid white;
-}
-
-div:nth-of-type(3) em {
-    color: white;
-    font-size: 20px;
+.rectangle2 {
+    box-sizing: border-box;
+    background-color: azure;
 }
