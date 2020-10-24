@@ -2,19 +2,34 @@
     box-sizing: border-box;
 }
 
-.container {
-    float: left;
-    width: 50%;
+.header,
+.footer {
+    height: 50px;
 }
 
-.red {
-    background-color: red;
-    float: right;
+.header {
+    background-color: yellow;
 }
 
-.green {
+.footer {
     background-color: green;
+}
+
+.content,
+.sidebar {
+    height: 500px;
+}
+
+.content {
+    background-color: pink;
     float: left;
+    width: 80%;
+}
+
+.sidebar {
+    background-color: grey;
+    float: right;
+    width: 20%;
 }
 
 .footer {
