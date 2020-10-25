@@ -2,27 +2,51 @@
     box-sizing: border-box;
 }
 
-.articles {
-    display: flex;
-}
-
-.articles div {
-    height: 100px;
-    width: 150px;
-    background-color: beige;
+.dropdawn {
     margin: 16px;
+    position: relative;
 }
 
-.cropped {
-    overflow: hidden;
+.menu-button {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    background-color: darkgreen;
+    opacity: 0.8;
 }
 
-.both-scrolls {
-    overflow: scroll;
-    cursor: all-scroll;
+.menu-button:hover {
+    font-size: 16px;
+    color: white;
+    opacity: 1;
+    cursor: pointer;
 }
 
-.vertical-scroll {
-    overflow: auto;
-    cursor: all-scroll;
+.menu-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: lightcyan;
+    color: black;
+    box-shadow: 0px 4px 8px 0px rgb(0, 0, 0.2);
+    min-width: 120px;
+    z-index: 1;
+    top: 65px;
+    left: 16px;
+    display: none;
+}
+
+.menu-item {
+    padding: 16px;
+}
+
+.menu-button:hover+.menu-list {
+    display: block;
+}
+
+.menu-item:hover {
+    background-color: ghostwhite;
 }
