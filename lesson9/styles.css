@@ -18,16 +18,13 @@
 
 .nav-list {
     margin: 0px;
+    display: flex;
 }
 
 .nav-item {
     display: inline-block;
     margin-left: 16px;
     color: white;
-}
-
-.nav-item:first-of-type~li {
-    margin-left: 10px;
 }
 
 .content {
