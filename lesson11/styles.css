@@ -1,0 +1,10 @@
+                                                  .container>div:first-child {
+                                                  display: none;
+                                              }
+                                              
+                                              .container>div:nth-child(2) {
+                                                  visibility: hidden;
+                                              }
+                                              
+                                              .container>div:nth-child(3) {
+                                                  visibility: visible;
