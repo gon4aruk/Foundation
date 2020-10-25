@@ -38,7 +38,7 @@
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-    margin-top: 50%;
+    margin-top: calc(50vh - 100px);
     margin-left: calc(50% - 100px);
 }
 
