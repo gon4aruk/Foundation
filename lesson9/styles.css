@@ -27,7 +27,7 @@
 }
 
 .nav-item:first-of-type~li {
-    margin-left: 13px;
+    margin-left: 10px;
 }
 
 .content {
