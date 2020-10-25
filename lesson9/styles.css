@@ -2,27 +2,32 @@
     box-sizing: border-box;
 }
 
-body {
-    position: relative;
-}
-
 .header {
     background-color: darkturquoise;
     height: 40px;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0px;
     z-index: 1;
+    line-height: 40px;
 }
 
 .navigation {
     height: 40px;
 }
 
+.nav-list {
+    margin: 0px;
+}
+
 .nav-item {
     display: inline-block;
     margin-left: 16px;
     color: white;
-    line-height: 40px;
+}
+
+.nav-item:first-of-type~li {
+    margin-left: 15px;
 }
 
 .content {
