@@ -2,12 +2,8 @@
     box-sizing: border-box;
 }
 
-.dropdawn {
-    margin: 16px;
+.dropdown {
     position: relative;
-}
-
-.menu-button {
     display: inline-block;
     margin: 16px;
     padding: 16px;
@@ -15,7 +11,7 @@
     opacity: 0.8;
 }
 
-.menu-button:hover {
+.dropdown:hover {
     font-size: 16px;
     color: white;
     opacity: 1;
@@ -34,8 +30,8 @@
     box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2);
     min-width: 120px;
     z-index: 1;
-    top: 67px;
-    left: 16px;
+    top: calc(18.400px + 32px);
+    left: 0;
     display: none;
 }
 
@@ -43,7 +39,7 @@
     padding: 16px;
 }
 
-.menu-button:hover+.menu-list {
+.dropdown:hover .menu-list {
     display: block;
 }
 
