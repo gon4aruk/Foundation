@@ -1,31 +1,22 @@
-.container {
-    margin: 32px;
-    font-family: Roboto, sans-serif;
-    font-size: 18px;
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.uppercase {
-    word-spacing: 20px;
+.header {
+    font-size: 74px;
     text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 50vw;
+    margin: auto;
+}
+
+.content {
+    height: 200px;
+    background-color: coral;
+    color: white;
     text-transform: uppercase;
-}
-
-.paragraph {
-    line-height: 28px;
-}
-
-.boldSpan {
-    font-weight: 900;
-    letter-spacing: 3px;
-    font-size: 24px;
-    opacity: 80%;
-    text-decoration: underline;
-}
-
-a {
-    text-decoration: none;
-}
-
-.italic {
-    color: grey;
+    text-align: center;
+    line-height: 200px;
 }
