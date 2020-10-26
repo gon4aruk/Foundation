@@ -9,6 +9,7 @@
     padding: 16px;
     background-color: darkgreen;
     opacity: 0.8;
+    color: white;
 }
 
 .dropdown:hover {
