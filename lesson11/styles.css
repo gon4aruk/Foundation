@@ -1,20 +1,12 @@
-.text {
-    display: inline-block;
-    position: relative;
-    margin: 16px;
-    border-bottom: 1px dotted black;
+.thumb {
+    margin: 8px;
 }
 
-.tooltip {
-    position: absolute;
-    background-color: grey;
-    color: white;
-    border-radius: 4px;
-    padding: 8px;
-    bottom: -40px;
-    display: none;
+.gallery {
+    display: flex;
+    overflow: auto;
 }
 
-.text:hover .tooltip {
-    display: block;
+.gallery:hover {
+    cursor: all-scroll;
 }
