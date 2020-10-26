@@ -15,5 +15,5 @@ li {
 }
 
 .first {
-    text-decoration: overline;
+    text-decoration: red overline;
 }
