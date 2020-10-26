@@ -1,6 +1,5 @@
-li {
+.list {
     font-size: 1.5em;
-    line-height: 27.2px;
 }
 
 .list {
@@ -8,8 +7,7 @@ li {
 }
 
 .third {
-    text-decoration-line: underline;
-    text-decoration-color: green;
+    text-decoration: green underline;
 }
 
 .second {
