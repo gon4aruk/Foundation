@@ -28,4 +28,5 @@ a {
 
 .italic {
     color: gray;
+    font-style: italic;
 }
