@@ -1,41 +1,6 @@
-* {
-    box-sizing: border-box;
-}
-
-.image-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.banner {
-    display: block;
+.main-video {
+    width: 500px;
     margin: 0 auto;
-    max-width: 100%;
-    border-radius: 20px;
-}
-
-.gallery {
-    display: flex;
-}
-
-.card {
-    margin: 16px;
-    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
-}
-
-.caption {
-    line-height: 30px;
-    text-align: center;
-}
-
-.opacity {
-    filter: opacity(50%);
-}
-
-.blur {
-    filter: blur(4px);
-}
-
-.invert {
-    filter: invert(100%);
+    margin-top: 200px;
+    display: block;
 }
