@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .login-form {
     margin: 32px;
 }
@@ -5,7 +9,8 @@
 input,
 textarea,
 select,
-button {
+button,
+.languages {
     display: block;
     margin: 8px;
 }
@@ -13,9 +18,4 @@ button {
 .languages input {
     display: inline-block;
     margin: 0;
-}
-
-.languages {
-    display: block;
-    margin: 8px;
 }
