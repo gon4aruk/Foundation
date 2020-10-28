@@ -9,24 +9,57 @@
 </head>
 
 <body>
-    <main class="page">
-        <form class="login-form">
-            <h1 class="form-title">Login</h1>
-            <div class="form-control">
-                <label class="form-label" for="email">Email</label>
-                <input class="form-input" type="email" id="email" name="email" placeholder="mail@example.com" required />
-            </div>
-            <div class="form-control">
-                <label class="form-label" for="userName">Full Name</label>
-                <input class="form-input" type="text" id="userName" name="userName" />
-            </div>
-            <div class="form-control">
-                <label class="form-label" for="password">Password</label>
-                <input class="form-input" type="password" id="password" name="password" required />
-            </div>
-            <button class="submit-button" type="submit">Submit</button>
-        </form>
-    </main>
+    <form class="login-form">
+        <input type="text" name="primaryLanguag" value="HTML" disabled>
+
+        <input type="checkbox" name="agree" disabled>
+
+        <input type="checkbox" name="like" readonly>
+
+        <input type="color" name="favouriteColor" value="#ff7f50">
+
+        <input type="date" name="birthDate" value="2021-01-02">
+
+        <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
+
+        <input type="email" name="email" placeholder="example@domain.com" required>
+
+        <input type="file" name="avatar">
+
+        <input type="month" name="startLearning" value="2020-01">
+
+        <input type="number" name="favouriteNumber" value="17">
+
+        <textarea name="story" id="story-text" cols="30" rows="5" placeholder="A long time ago..."></textarea>
+
+        <input type="password" name="password" value="secret">
+
+        <div class="languages">
+            <input type="radio" id="lang-html" name="language" value="html">HTML
+
+            <input type="radio" id="lang-css" name="language" value="css" checked>CSS
+
+            <input type="radio" id="lang-js" name="language" value="javascript">JavaScript
+        </div>
+
+        <input type="range" name="learningProgress" value="30">
+
+        <select name="framework" id="select-framework">
+            <option value="react">React</option>
+            <option value="jquery" selected>jQuery</option>
+            <option value="bootstrap">Bootstrap</option>
+        </select>
+
+        <input type="search" name="search" placeholder="Type first letters...">
+
+        <input type="time" name="lunchEnd" value="14:01">
+
+        <input type="url" name="website" placeholder="https://website.com" required>
+
+        <input type="week" name="birthWeek" value="2021-W51">
+
+        <button name="submit">Save</button>
+    </form>
 </body>
 
 </html>
