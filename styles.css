@@ -16,5 +16,6 @@ button {
 }
 
 .languages {
+    display: block;
     margin-left: 8px;
 }
