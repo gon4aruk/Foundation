@@ -1,5 +1,7 @@
 .login-form {
     margin: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 input,
@@ -8,7 +10,12 @@ select,
 button,
 .languages {
     display: block;
-    margin: 8px;
+    width: fit-content;
+    margin: 0 8px 8px 8px;
+}
+
+input[name="like"] {
+    margin-top: revert;
 }
 
 .languages input {
@@ -16,6 +23,6 @@ button,
     margin: 0;
 }
 
-input[type="checkbox"] {
-    margin: 10px 8px;
+input[type="color"] {
+    width: revert;
 }
