@@ -12,4 +12,9 @@ button {
 
 .languages input {
     display: inline-block;
+    margin: 0;
+}
+
+.languages {
+    margin-left: 8px;
 }
