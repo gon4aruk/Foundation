@@ -2,45 +2,103 @@
     box-sizing: border-box;
 }
 
-div {
-    overflow-x: auto;
-}
-
 table {
-    width: 500px;
     margin: 16px;
     border: 1px solid black;
     border-collapse: collapse;
-    text-align: right;
 }
 
-caption {
-    margin-bottom: 8px;
-}
-
-th {
-    background-color: aqua;
-}
-
-tr {
-    height: 40px;
-}
-
-th,
 td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
     border: 1px solid black;
-    padding: 4px;
 }
 
-tbody>tr:nth-child(odd) {
-    background-color: #f2f2f2;
+tr:first-child>td {
+    border: none;
 }
 
-tbody>tr:hover {
-    background-color: #aaa;
-    color: #fff;
+tr:last-child>td {
+    border: none;
 }
 
-tfoot {
-    font-weight: 700;
+tbody tr:nth-child(2)>td:nth-child(odd) {
+    background-color: black;
+}
+
+tbody tr:nth-child(3)>td:nth-child(even) {
+    background-color: black;
+}
+
+tbody tr:nth-child(4)>td:nth-child(odd) {
+    background-color: black;
+}
+
+tbody tr:nth-child(5)>td:nth-child(even) {
+    background-color: black;
+}
+
+tbody tr:nth-child(6)>td:nth-child(odd) {
+    background-color: black;
+}
+
+tbody tr:nth-child(7)>td:nth-child(even) {
+    background-color: black;
+}
+
+tbody tr:nth-child(8)>td:nth-child(odd) {
+    background-color: black;
+}
+
+tbody tr:nth-child(9)>td:nth-child(even) {
+    background-color: black;
+}
+
+tbody tr:nth-child(2)>td:first-child,
+tbody tr:nth-child(2)>td:last-child {
+    background-color: white;
+    border: none;
+}
+
+tbody tr:nth-child(3)>td:first-child,
+tbody tr:nth-child(3)>td:last-child {
+    background-color: white;
+    border: none;
+}
+
+tbody tr:nth-child(4)>td:first-child,
+tbody tr:nth-child(4)>td:last-child {
+    background-color: white;
+    border: none;
+}
+
+tbody tr:nth-child(5)>td:last-child,
+tbody tr:nth-child(5)>td:first-child {
+    background-color: white;
+    border: none;
+}
+
+tbody tr:nth-child(6)>td:first-child,
+tbody tr:nth-child(6)>td:last-child {
+    background-color: white;
+    border: none;
+}
+
+tbody tr:nth-child(7)>td:last-child,
+tbody tr:nth-child(7)>td:first-child {
+    background-color: white;
+    border: none;
+}
+
+tbody tr:nth-child(8)>td:first-child,
+tbody tr:nth-child(8)>td:last-child {
+    background-color: white;
+    border: none;
+}
+
+tbody tr:nth-child(9)>td:last-child,
+tbody tr:nth-child(9)>td:first-child {
+    background-color: white;
+    border: none;
 }
