@@ -1,28 +1,12 @@
 .login-form {
     margin: 32px;
-    display: flex;
-    flex-direction: column;
 }
 
-input,
-textarea,
-select,
-button,
+div {
+    margin: 8px;
+}
+
 .languages {
     display: block;
-    width: fit-content;
-    margin: 0 8px 8px 8px;
-}
-
-input[name="like"] {
-    margin-top: revert;
-}
-
-.languages input {
-    display: inline-block;
-    margin: 0;
-}
-
-input[type="color"] {
-    width: revert;
+    margin: 8px;
 }
