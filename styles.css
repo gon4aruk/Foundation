@@ -12,7 +12,6 @@ table {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: right;
-    line-height: 40px;
 }
 
 caption {
@@ -21,6 +20,10 @@ caption {
 
 th {
     background-color: aqua;
+}
+
+tr {
+    height: 40px;
 }
 
 th,
