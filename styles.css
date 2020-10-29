@@ -13,6 +13,7 @@
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     font-weight: 700;
+    vertical-align: middle;
 }
 
 .custom-button:hover {
