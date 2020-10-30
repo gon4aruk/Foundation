@@ -1,24 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
-    display: flex;
-    justify-content: space-around;
+    margin: 32px;
 }
 
-.fa-battery-full {
-    font-size: 16px;
+.rect {
+    margin-bottom: 16px;
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 100px;
 }
 
-.fa-battery-three-quarters {
-    font-size: 32px;
+.rect:hover {
+    width: 100%;
+    opacity: 1;
+    transition: width 2s, opacity 0.5s;
 }
 
-.fa-battery-half {
-    font-size: 64px;
+.linear:hover {
+    transition-timing-function: linear;
 }
 
-.fa-battery-quarter {
-    font-size: 128px;
+.easy:hover {
+    transition-timing-function: easy;
 }
 
-.fa-battery-empty {
-    font-size: 256px;
+.easy-in:hover {
+    transition-timing-function: ease-in;
+}
+
+.easy-out:hover {
+    transition-timing-function: ease-out;
+}
+
+.easy-in-out:hover {
+    transition-timing-function: ease-in-out;
 }
