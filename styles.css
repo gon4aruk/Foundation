@@ -9,17 +9,13 @@
     justify-content: center;
 }
 
-.spinner {
-    padding: 1px;
-}
-
 .circle {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: 4px solid lightgrey;
     border-top: 4px solid black;
-    margin: 0 auto 8px auto;
+    margin: 1px auto 8px auto;
     animation: spin 2s infinite linear;
 }
 
