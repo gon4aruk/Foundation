@@ -2,9 +2,52 @@
     box-sizing: border-box;
 }
 
-.square {
-    height: 100px;
-    width: 100px;
-    background-color: tomato;
-    transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fancy-button {
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    background-image: linear-gradient(45deg, yellow, red);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin: auto;
+    animation: jump .5s .4s ease-in-out, spin .5s ease-in-out, move 1s 2s forwards ease;
+}
+
+@keyframes jump {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(2000px);
+    }
 }
