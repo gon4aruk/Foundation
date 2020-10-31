@@ -5,10 +5,8 @@
 .container {
     display: flex;
     height: 100vh;
-}
-
-.spinner {
-    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle {
