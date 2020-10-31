@@ -44,6 +44,6 @@ span {
         display: flex;
     }
     .news {
-        min-width: calc(100vw/3);
+        min-width: 33.333%;
     }
 }
