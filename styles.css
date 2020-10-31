@@ -1,23 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
-    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+    font-size: 16px;
 }
 
-.font-in-px {
-    font-size: 27px;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
-.font-in-em {
-    font-size: 1.5em;
+.main {
+    display: flex;
+    flex-grow: 1;
 }
 
-.font-in-vw {
+.header {
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(60deg, red, orange);
+}
+
+.navigation {
+    width: 20%;
+    padding: 0.5em;
+}
+
+.nav-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list-item {
+    background-color: #808080;
+    margin-bottom: 0.5em;
+    height: 2em;
+}
+
+.nav-list-item>.nav-list-link {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 0.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.section {
+    width: 60%;
+    padding: 0.5em;
+    font-size: 1.25em;
+}
+
+.section__header {
     font-size: 5vw;
+    text-align: center;
 }
 
-.font-in-percents {
-    font-size: 150%;
+.units-list {
+    line-height: 1.75em;
 }
 
-.font-in-rem {
-    font-size: 1.5rem;
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.news {
+    width: 20%;
+    padding: 0.5em;
+}
+
+.footer {
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    text-align: center;
 }
