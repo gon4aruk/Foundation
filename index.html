@@ -4,16 +4,27 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Breakpoints</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Adaptive menu</title>
 </head>
 
 <body>
-    <picture>
-        <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" media="(min-width: 400px)">
-        <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg">
-        <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" alt="Tree on the field">
-    </picture>
+    <header class="header">
+        <button class="header-button">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    <main class="main">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a class="nav-list-link" href="#">Responsive images</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="#">Mediaqueries</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="#">Flexbox</a></li>
+            </ul>
+        </nav>
+    </main>
+</body>
 
 </html>
