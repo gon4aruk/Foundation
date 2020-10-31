@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.spinner {
+    padding: 1px;
+}
+
 .circle {
     height: 50px;
     width: 50px;
