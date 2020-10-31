@@ -2,29 +2,50 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <title>Adaptive menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <header class="header">
-        <button class="header-button">
-            <i class="fas fa-bars"></i>
-        </button>
+        <h1>Responsive website</h1>
     </header>
     <main class="main">
-        <nav class="navigation">
-            <ul class="nav-list">
-                <li class="nav-list-item"><a class="nav-list-link" href="#">Responsive images</a></li>
-                <li class="nav-list-item"><a class="nav-list-link" href="#">Mediaqueries</a></li>
-                <li class="nav-list-item"><a class="nav-list-link" href="#">Flexbox</a></li>
-            </ul>
-        </nav>
+        <section class="content">
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="nav-list-link" href="#">Responsive images</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#">Mediaqueries</a></li>
+                    <li class="nav-list-item"><a class="nav-list-link" href="#">Flexbox</a></li>
+                </ul>
+            </nav>
+            <section class="section">
+                <h2 class="section__header">True story</h2>
+                <picture>
+                    <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/big.png" media="(min-width: 600px)">
+                    <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/small.png">
+                    <img class="image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/small.png" alt="Clouds">
+                </picture>
+                <p>There are few ways to define <code>font-size</code>:</p>
+                <ul class="units-list">
+                    <li>
+                        <span class="css-units">px</span> are good if you need strict definition for a size of text. In other cases it is better to use relative units listed below.
+                    </li>
+                    <li><span class="css-units">em</span> based on current font size</li>
+                    <li><span class="css-units">rem</span> based on <code>&lt;html&gt;</code> font-size</li>
+                    <li><span class="css-units">%</span> based on parent font size</li>
+                    <li><span class="css-units">vh</span> (viewport height) based on screen height</li>
+                    <li><span class="css-units">vw</span> (viewport width) based on screen width</li>
+                </ul>
+            </section>
+        </section>
+        <aside class="news">
+            <h2>Not a news</h2>
+            <p>A web page should look good on any device!</p>
+        </aside>
     </main>
+    <footer class="footer">Welcome to the responsive world!</footer>
 </body>
 
 </html>
