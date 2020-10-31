@@ -1,142 +1,141 @@
-* {
-    box-sizing: border-box;
-}
-
-html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #555;
-    font-size: 16px;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-}
-
-.main {
-    display: flex;
-    flex-grow: 1;
-}
-
-.header {
-    text-align: center;
-    color: #fff;
-    background-image: linear-gradient(60deg, red, orange);
-}
-
-.navigation {
-    padding: 0.5em;
-}
-
-.nav-list {
-    padding: 0;
-    list-style-type: none;
-}
-
-.nav-list-item {
-    background-color: #808080;
-    margin-bottom: 0.5em;
-    height: 2em;
-}
-
-.nav-list-item>.nav-list-link {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 0.5em;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    line-height: 1em;
-}
-
-.section {
-    padding: 0.5em;
-    font-size: 1.25em;
-}
-
-.section__header {
-    font-size: 5vw;
-    text-align: center;
-}
-
-.units-list {
-    line-height: 1.75em;
-}
-
-.css-units {
-    color: #8b0000;
-    background-color: #e5e5e5;
-    font-size: 1.125em;
-    font-weight: 700;
-}
-
-.news {
-    padding: 0.5em;
-}
-
-.footer {
-    background-color: #e5e5e5;
-    padding: 0.5em;
-    text-align: center;
-}
-
-.image {
-    max-width: 100%;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-}
-
-@media screen and (max-width:599px) {
-    .main {
-        flex-direction: column;
-    }
-    .navigation {
-        width: 100%;
-    }
-    .section {
-        width: 100%;
-    }
-    .news {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width:600px) and (max-width: 899px) {
-    .main {
-        display: flex;
-        flex-direction: column;
-    }
-    .content {
-        display: flex;
-    }
-    .navigation {
-        width: 20%;
-    }
-    .section {
-        width: 80%;
-    }
-    .news {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width:900px) {
-    .main {
-        display: flex;
-    }
-    .content {
-        display: flex;
-        width: 80%;
-    }
-    .navigation {
-        width: 20%;
-    }
-    .section {
-        width: 80%;
-    }
-    .news {
-        width: 20%;
-    }
-}
+                            * {
+                            box-sizing: border-box;
+                        }
+                        
+                        html {
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            color: #555;
+                            font-size: 16px;
+                        }
+                        
+                        body {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            height: 100vh;
+                        }
+                        
+                        .main {
+                            display: flex;
+                            flex-grow: 1;
+                        }
+                        
+                        .header {
+                            text-align: center;
+                            color: #fff;
+                            background-image: linear-gradient(60deg, red, orange);
+                        }
+                        
+                        .navigation {
+                            padding: 0.5em;
+                        }
+                        
+                        .nav-list {
+                            padding: 0;
+                            list-style-type: none;
+                        }
+                        
+                        .nav-list-item {
+                            background-color: #808080;
+                            margin-bottom: 0.5em;
+                            height: 2em;
+                        }
+                        
+                        .nav-list-item>.nav-list-link {
+                            text-decoration: none;
+                            color: #fff;
+                            display: block;
+                            padding: 0.5em;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            line-height: 1em;
+                        }
+                        
+                        .section {
+                            padding: 0.5em;
+                            font-size: 1.25em;
+                        }
+                        
+                        .section__header {
+                            font-size: 5vw;
+                            text-align: center;
+                        }
+                        
+                        .units-list {
+                            line-height: 1.75em;
+                        }
+                        
+                        .css-units {
+                            color: #8b0000;
+                            background-color: #e5e5e5;
+                            font-size: 1.125em;
+                            font-weight: 700;
+                        }
+                        
+                        .news {
+                            padding: 0.5em;
+                        }
+                        
+                        .footer {
+                            background-color: #e5e5e5;
+                            padding: 0.5em;
+                            text-align: center;
+                        }
+                        
+                        .image {
+                            max-width: 100%;
+                            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+                        }
+                        
+                        @media screen and (max-width:599px) {
+                            .main {
+                                flex-direction: column;
+                            }
+                            .navigation {
+                                width: 100%;
+                            }
+                            .section {
+                                width: 100%;
+                            }
+                            .news {
+                                width: 100%;
+                            }
+                        }
+                        
+                        @media screen and (min-width:600px) and (max-width: 899px) {
+                            .main {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            .content {
+                                display: flex;
+                            }
+                            .navigation {
+                                width: 20%;
+                            }
+                            .section {
+                                width: 80%;
+                            }
+                            .news {
+                                width: 100%;
+                            }
+                        }
+                        
+                        @media screen and (min-width:900px) {
+                            .main {
+                                display: flex;
+                            }
+                            .content {
+                                display: flex;
+                                width: 80%;
+                            }
+                            .navigation {
+                                width: 25%;
+                            }
+                            .section {
+                                width: 75%;
+                            }
+                            .news {
+                                width: 20%;
+                            }
