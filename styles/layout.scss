@@ -1,63 +1,63 @@
-@import 'breakpoints.scss';
+@import "breakpoints.scss";
 .navigation {
-    display: flex;
-    background-color: #ff7f50;
-    height: 200px;
-    @include for-medium-up {
-        max-width: 50%;
-        flex-grow: 1;
-    }
-    @include for-large-up {
-        max-width: 50%;
-        flex-grow: 1;
-    }
+  display: flex;
+  background-color: #ff7f50;
+  height: 200px;
+  @include for-medium-up {
+    max-width: 50%;
+    flex-grow: 1;
+  }
+  @include for-large-up {
+    max-width: 50%;
+    flex-grow: 1;
+  }
 }
 
 .product-list {
-    display: flex;
-    background-color: #006400;
-    height: 200px;
-    @include for-medium-up {
-        max-width: 50%;
-        flex-grow: 1;
-    }
-    @include for-large-up {
-        max-width: 50%;
-        flex-grow: 1;
-    }
+  display: flex;
+  background-color: #006400;
+  height: 200px;
+  @include for-medium-up {
+    max-width: 50%;
+    flex-grow: 1;
+  }
+  @include for-large-up {
+    max-width: 50%;
+    flex-grow: 1;
+  }
 }
 
 .news {
-    display: flex;
-    background-color: #0ff;
-    height: 200px;
-    @include for-large-up {
-        flex-grow: 1;
-        max-width: 33.333%;
-    }
+  display: flex;
+  background-color: #0ff;
+  height: 200px;
+  @include for-large-up {
+    flex-grow: 1;
+    max-width: 33.333%;
+  }
 }
 
 .text {
-    margin: auto;
-    text-transform: lowercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 8px;
-    background-color: #faebd7;
-    border-radius: 4px;
+  margin: auto;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
 }
 
 .content {
-    @include for-medium-up {
-        display: flex;
-    }
-    @include for-large-up {
-        display: flex;
-        flex-grow: 1;
-    }
+  @include for-medium-up {
+    display: flex;
+  }
+  @include for-large-up {
+    display: flex;
+    flex-grow: 1;
+  }
 }
 
 .main {
-    @include for-large-up {
-        display: flex;
-    }
+  @include for-large-up {
+    display: flex;
+  }
 }
