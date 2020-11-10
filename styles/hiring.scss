@@ -1,0 +1,154 @@
+.hiring {
+  padding: 50px 15px;
+
+  @include for-large-up {
+    padding: 106px 0 110px 0;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+    margin: 0;
+
+    @include for-large-up {
+      font-size: 56px;
+      line-height: 56px;
+      text-align: center;
+      letter-spacing: -0.5px;
+    }
+  }
+
+  &__description {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin: 0;
+    margin-top: 18px;
+
+    @include for-large-up {
+      margin-top: 20px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 30px;
+
+    @include for-large-up {
+      display: block;
+      margin: 0 auto;
+      margin-top: 28px;
+      max-width: 247px;
+    }
+  }
+}
+
+.vacancys {
+  margin-top: 39px;
+
+  @include for-large-up {
+    margin-top: 110px;
+  }
+}
+
+.vacancy {
+  border: 1px solid $color-border-vacancy;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 15px;
+
+  @include for-large-up {
+    max-width: 750px;
+    margin: auto;
+    margin-top: 15px;
+    height: 81px;
+  }
+
+  &:hover {
+    @include for-large-up {
+      background-color: $color-user-card;
+      cursor: pointer;
+    }
+
+    .vacancy__name {
+      @include for-large-up {
+        color: $color-white;
+      }
+    }
+
+    .vacancy__location {
+      @include for-large-up {
+        color: $color-white;
+        opacity: 1;
+      }
+    }
+
+    .vacancy__arrow-image {
+        @include for-large-up {
+        background-image: url(img/icon-arrow-right-white.png);
+        }
+    }
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &__description {
+    flex-grow: 1;
+    padding: 19px 20px 19px 21px;
+
+    @include for-large-up {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+
+    @include for-large-up {
+      width: 408px;
+      margin-right: 20px;
+    }
+  }
+
+  &__location {
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.6;
+    margin: 0;
+    margin-top: 7px;
+    display: inline-block;
+
+    @include for-large-up {
+      margin: 0;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  &__arrow {
+    background-color: #d5d4d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+
+    @include for-large-up {
+      background-color: transparent;
+    }
+  }
+
+  &__arrow-image {
+    background-image: url(img/icon-arrow-right.png);
+    width: 7px;
+    height: 12px;
+  }
+}

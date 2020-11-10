@@ -1,0 +1,143 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 64px;
+  background-color: #fff;
+
+  @include for-large-up {
+    display: flex;
+    width: 1140px;
+    height: 62px;
+    background-color: #f3c6bd;  
+    margin: auto;
+  }
+
+  &__button {
+    display: none;
+
+    @include for-large-up {
+      display: inline-block;
+    }
+  }
+
+  &__navigation-button {
+    height: 64px;
+    width: 64px;
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    border-left: 1px solid #00000026;
+    padding: 0;
+
+    @include for-large-up {
+      display: none;
+    }
+  }
+
+  &__navigation-button-logo {
+    display: inline-block;
+    width: 18px;
+    height: 13px;
+    background-image: url('img/icon-hamburger.png');
+  }
+}
+
+.navigation {
+  display: none;
+
+  @include for-large-up {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 75px 30px auto;
+    width: 273px;
+    height: 25px;
+    position: relative;
+  }
+
+  &__item {
+    @include for-large-up {
+      text-decoration: none;
+      color: $text-color;
+      line-height: 25px;
+      font-size: 18px;
+    }
+
+    &_selected {
+      @include for-large-up {
+        font-weight: 700;
+      }
+    }
+  }
+
+  &__arrow {
+    @include for-large-up {
+      background-image: url(img/arrow.png);
+      width: 8px;
+      height: 5px;
+      position: absolute;
+      left: calc(11px + 273px);
+      top: calc(19px - 7px);
+      display: inline-block;
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  @include for-large-up {
+    display: flex;
+    align-items: stretch;
+    margin-top: 2px;
+  }
+
+  &__image {
+    width: 48px;
+    height: 48px;
+    margin-left: 15px;
+
+    @include for-large-up {
+      width: 60px;
+      height: 60px;
+      margin-right: 15px;
+    }
+  }
+
+  &__text {
+    @include for-large-up {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__description {
+    display: none;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 13px;
+
+    @include for-large-up {
+      line-height: 25px;
+      font-size: 20px;
+      font-weight: 700;
+      color: $text-color;
+      margin-left: 0;
+    }
+  }
+
+  &__description {
+    @include for-large-up {
+      display: block;
+      font-size: 18px;
+      line-height: 25px;
+      color: $text-color;
+      opacity: 0.7;
+    }
+  }
+}

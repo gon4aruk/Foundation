@@ -1,0 +1,15 @@
+.action__button {
+    padding: 0;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    background-color: #3040c4;
+    line-height: 13px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    @include for-large-up {
+      width: 160px;
+    }
+  }
+  

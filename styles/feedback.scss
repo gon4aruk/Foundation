@@ -1,0 +1,90 @@
+.feedback {
+  padding: 39px 15px 50px 15px;
+  border-bottom: 1px solid $color-line;
+
+  @include for-large-up {
+      padding: 0 130px 66px 130px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      width: 1400px;
+      margin: auto;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: $color-feadback-blue;
+  }
+
+  &__description {
+    margin: 0;
+    margin-top: 29px;
+    font-size: 24px;
+    line-height: 34px;
+
+    @include for-large-up {
+        max-width: 750px;
+        text-align: center;
+    }
+  }
+
+  &__avatar {
+      margin-top: 32px;
+
+      @include for-large-up {
+          margin-top: 34px;
+          text-align: center;
+      }
+  }
+
+  &__navigation {
+      margin: 0 auto;
+      margin-top: 40px;
+      display: flex;
+      width: 75px;
+      justify-content: space-between;
+
+      @include for-large-up {
+          margin-top: 38px;
+          width: 50px;
+      }
+  }
+
+  &__navigation-item {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: $text-color;
+      opacity: 0.2;
+
+      @include for-large-up {
+          width: 8px;
+          height: 8px;
+      }
+
+      
+      &_selected {
+        background-color: $color-feadback-blue;
+        opacity: 1;
+      }
+
+      &:hover {
+          background-color: $color-feadback-blue;
+          opacity: 1;
+      }
+  }
+
+  &__illustration {
+      margin-top: 40px;
+      max-width: 100%;
+
+      @include for-large-up {
+          position: absolute;
+          right: 26px;
+          bottom: 0;
+      }
+  }
+}
