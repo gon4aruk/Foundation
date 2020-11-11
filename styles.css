@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  align-items: center;
   width: 100%;
   height: 64px;
   background-color: #fff;
@@ -39,7 +40,7 @@
   display: inline-block;
   width: 18px;
   height: 13px;
-  background-image: url("img/icon-hamburger.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
 }
 
 .navigation {
@@ -49,10 +50,11 @@
   .navigation {
     display: flex;
     justify-content: space-between;
-    margin: 7px 75px 30px auto;
     width: 273px;
     height: 25px;
     position: relative;
+    margin-right: 75px;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -70,7 +72,7 @@
 }
 @media screen and (min-width: 1400px) {
   .navigation__arrow {
-    background-image: url(img/arrow.png);
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     width: 8px;
     height: 5px;
     position: absolute;
@@ -386,6 +388,7 @@
     position: absolute;
     z-index: 1;
     top: 177px;
+    margin: 0;
   }
 }
 .headline__title {
@@ -1038,6 +1041,9 @@
     margin-top: 34px;
   }
 }
+.audience__learn-more-button {
+  color: #000;
+}
 .audience__list {
   width: 100%;
   margin-top: 40px;
@@ -1273,7 +1279,7 @@
 }
 @media screen and (min-width: 1400px) {
   .vacancy:hover .vacancy__arrow-image {
-    background-image: url(img/icon-arrow-right-white.png);
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png");
   }
 }
 .vacancy:first-child {
@@ -1329,7 +1335,7 @@
   }
 }
 .vacancy__arrow-image {
-  background-image: url(img/icon-arrow-right.png);
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
   width: 7px;
   height: 12px;
 }

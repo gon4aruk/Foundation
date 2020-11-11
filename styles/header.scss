@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  align-items: center;
   width: 100%;
   height: 64px;
   background-color: #fff;
@@ -38,7 +39,7 @@
     display: inline-block;
     width: 18px;
     height: 13px;
-    background-image: url('img/icon-hamburger.png');
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
   }
 }
 
@@ -48,10 +49,11 @@
   @include for-large-up {
     display: flex;
     justify-content: space-between;
-    margin: 7px 75px 30px auto;
     width: 273px;
     height: 25px;
     position: relative;
+    margin-right: 75px;
+    margin-left: auto;
   }
 
   &__item {
@@ -71,7 +73,7 @@
 
   &__arrow {
     @include for-large-up {
-      background-image: url(img/arrow.png);
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
       width: 8px;
       height: 5px;
       position: absolute;

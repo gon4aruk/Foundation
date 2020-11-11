@@ -88,7 +88,7 @@
 
     .vacancy__arrow-image {
         @include for-large-up {
-        background-image: url(img/icon-arrow-right-white.png);
+        background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png');
         }
     }
   }
@@ -147,7 +147,7 @@
   }
 
   &__arrow-image {
-    background-image: url(img/icon-arrow-right.png);
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png');
     width: 7px;
     height: 12px;
   }
