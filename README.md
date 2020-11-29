@@ -1,6 +1,6 @@
 ## Foundation Website
 
-The site is available at https://gon4aruk.github.io/Foundation/
+The site is available at https://gon4aruk.github.io/foundation/
 
 **The tech stack is:**
 - HTML5
